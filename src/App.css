@@ -1,0 +1,99 @@
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #0f0e0e;
+		color: #7d7474;
+		margin: 0;
+		padding:25px;
+	}
+
+	.navbar {
+		background: #cf9c10;
+		display: flex;
+		align-items: center;
+		gap: 3rem;
+		padding: 1rem 2rem;
+		margin:0 1%;
+	}
+
+	.navbar a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.logo {
+		color: #fff;
+	}
+
+	.home form {
+		display: flex;
+      text-align: left;
+		margin: 1rem;
+	}
+
+	.searchInput {
+        left: 0;
+		width: 80%;
+		padding: 15px;
+	}
+	form button
+
+	{
+margin-left: 5%;
+	}
+
+	.movie-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding: 0;
+		width: 100%;
+	}
+
+	.movie-card {
+		background: #ffffff;
+		box-shadow: 0px 0px 15px black inset;
+
+		padding:1rem 0.5rem;
+		box-sizing: border-box;
+		width:23%;
+		margin:15px 1%;
+		text-align: left;
+		font-size: 25px;
+		height: 500px;
+		line-height: 10px;
+	}
+
+	.movie-card img {
+		width: 100%;
+		height: 70%;
+	    box-shadow: 0px 0px 25px rgb(199, 168, 13) ;
+		border-radius:10px 10px 0 0;
+		margin-bottom: 0px;
+	}
+
+	.movie-card a {
+		color: #151111;
+	}
+.movie-detail
+
+{
+
+
+	margin: 0 1%;
+	align-items: center;
+	justify-content: center;text-align: center;
+}
+	@media screen and (max-width:770px) {
+
+	.movie-list {
+
+		flex-direction: column;
+
+	}	.movie-card {
+
+		width:100%;
+		margin:15px 0%;
+
+	}
+
+	}
